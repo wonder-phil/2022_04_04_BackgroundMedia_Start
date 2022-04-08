@@ -31,14 +31,12 @@ class MyMediaPlayer {
         }
     }
 
-
     fun pause() {
         mediaPlayer.pause()
         mediaPlayer.reset()
     }
 
     fun start() {
-
         mediaPlayer.start()
     }
 
